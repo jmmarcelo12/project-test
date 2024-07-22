@@ -1,7 +1,7 @@
 name: Generate Project Feeds
 on: [push]
 jobs:
-  builds:
+  build:
   runs-on: ubuntu-latest
   steps:
     - name: Checkout Repo
